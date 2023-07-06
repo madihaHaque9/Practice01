@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: purple;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.logo{
+    width: 120px;
+    
+}
+.menu{
+    display: flex;
+}
+.item{
+    margin-right: 10px ;
+    padding-right: 7px;
+    font-size: 18px;
+
+}
+.item:hover{
+    cursor: pointer;
+    color: black;
+    
+    background-color: palevioletred;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    background-image: url("images/download\ \(2\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.text{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: burlywood;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: magenta;
+    color: white;
+}
